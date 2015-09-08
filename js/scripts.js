@@ -5,3 +5,16 @@ var factorial = function(bob) {
     return bob * factorial(bob - 1)
   }
 };
+
+$(document).ready(function() {
+  $("form#factorial_input").submit(function(event) {
+    var bob = parseInt($("input#bob").val());
+    var user_factorial = factorial(bob);
+
+    $(".bob").text(bob);
+    $(".factorialized").text(user_factorial);
+
+    $("#result").show();
+    event.preventDefault();
+  });
+});
