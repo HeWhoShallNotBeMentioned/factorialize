@@ -1,7 +1,7 @@
 var factorial = function(bob) {
-  if (bob == 0 || bob == 1) {
+  if (bob == 0) {
     return 1;
   } else {
-    return 0;
+    return bob * factorial(bob - 1)
   }
 };

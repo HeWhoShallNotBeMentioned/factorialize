@@ -4,6 +4,6 @@ describe("factorial", function() {
   });
 
   it("returns the product of the input and each positive integer less than it", function() {
-    expect(factorial(5)).to.equal(120);
+    expect(factorial(10)).to.equal(3628800);
   });
 });
