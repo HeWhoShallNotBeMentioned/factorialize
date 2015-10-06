@@ -1,3 +1,11 @@
+img {
+  width: 30%;
+  heigth: auto;
+}
+body {
+  background-color: #fad981;
+}
+
 #result {
   display: none;
 }
