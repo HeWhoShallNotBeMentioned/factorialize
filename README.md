@@ -1,15 +1,15 @@
-pig_latin_js
-{Will convert a word or sentence into pig latin.}, {September 10, 2015}
+factorialize
+{Takes an integer and returns its factorial sum}, {September 6, 2015}
 
-By {Chris Underwood & Corrie Smith}
+By {Chris Underwood & Andrew Brennewald}
 
 Description
 
-{Will convert a word or sentence into pig latin. Once the button is pressed, the transalated text will appear beneath.}
+{Takes an integer and returns its factorial sum}
 
 Setup
 
-Download files. Open the pig-latin.html document in the browser. The program should be ready to run.
+Download files. Open the factoria.html document in the browser. The program should be ready to run.
 
 Technologies Used
 
@@ -17,7 +17,7 @@ Technologies Used
 
 Legal
 
-Copyright (c) 2015 {Chris Underwood & Corrie Smith}
+Copyright (c) 2015 {Chris Underwood & Andrew Brennewald}
 
 This software is licensed under the MIT license.
 
